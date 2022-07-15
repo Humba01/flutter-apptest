@@ -1,8 +1,14 @@
 {
     "recommendations": [
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "ms-vscode-remote.remote-ssh-edit",
+        "tal7aouy.rainbow-bracket",
         "dart-code.dart-code",
         "dart-code.flutter",
-        "ms-vscode-remote.remote-containers",
-        "MS-CEINTL.vscode-language-pack-pt-BR"
+        "raidou.calc",
+        "shd101wyy.markdown-preview-enhanced",
+        "DavidAnson.vscode-markdownlint",
+        "PKief.material-icon-theme"
     ]
 }
