@@ -17,10 +17,6 @@ class Second extends StatelessWidget {
 
 class Page extends StatelessWidget {
   const Page({Key? key}) : super(key: key);
-  
-  get behavior => null;
-  
-  get child => null;
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +25,11 @@ class Page extends StatelessWidget {
         title: const Text('Second Page'),
       ),
       body: const Center(
-        child: Text('This is the second page'),
+        child: Scrollbar(
+          child: Text(
+            'Annotations',
+            )
+          )
       ),
     );
   }
